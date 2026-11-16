@@ -1,0 +1,28 @@
+name: Bug report
+description: Something isn't working as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reprex
+    attributes:
+      label: Steps or code to reproduce
+      description: A minimal example helps a lot. For R, a [reprex](https://reprex.tidyverse.org/) is ideal.
+      render: r
+  - type: textarea
+    id: error
+    attributes:
+      label: Error messages or output
+      render: text
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, R/Python version, package version or commit
+      placeholder: "Windows 11, R 4.4.1, commit a1b2c3d"

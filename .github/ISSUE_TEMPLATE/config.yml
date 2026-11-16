@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: About CRASR
+    url: https://crasr.artsandsciences.baylor.edu
+    about: The center, its people, and analytical services
+  - name: CRASR projects and tools
+    url: https://crasr.github.io
+    about: Overview of CRASR's open code and software

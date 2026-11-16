@@ -1,0 +1,16 @@
+name: Feature request or question
+description: Suggest an improvement or ask about how something works
+labels: [enhancement]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like?
+      description: Describe the feature or question, and the problem it would solve.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Data, use case, or alternatives you've considered.
